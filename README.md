@@ -8,9 +8,13 @@ src="http://i72.photobucket.com/albums/i186/xxsashixx/screenFetch-2011-01-05_16-
 <b>CPU</b>: Q6600 @ 3.20GHz<br />
 <b>GPU</b>: GTX260 Core 216 & 9800GT <br />
 <b>Monitors</b>: Center: BenQ 24" Left: Samsung 22" Right: Dell 17"<br />
-<b>RAM</b>: 8GB of GSkill PC2-8800 (4x4GB) <br />
+<b>RAM</b>: 8GB of GSkill PC2-8800 (4x4GB) (/tmp (1GB), shm (4GB))<br />
 <b>Audio</b>: ALC889a<br />
-<b>Disks</b>: OS: 1xIntel X25-M G2 80GB Storage: 4xWD Black 640GB RAID10 Backup:1x500GB & 50GB Dropbox account <br />
+<b>Disks</b><br>
+<bOS</b>: 1xIntel X25-M G2 80GB (/ (ext4), (/usr (ext4))<br />
+<b>Storage</b>: 4xWD Black 640GB RAID10 (/home (xfs))<br />
+<b>Backup</b>:1x500GB (/boot (ext2), /var (reiserfs) & /home/android (xfs)) & 50GB Dropbox account <br />
+
 <b></b>: <br />
 
 <b>WM</b>
