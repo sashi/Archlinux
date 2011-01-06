@@ -8,7 +8,7 @@ src="http://i72.photobucket.com/albums/i186/xxsashixx/screenFetch-2011-01-05_16-
 <b>CPU</b>: Q6600 @ 3.20GHz<br />
 <b>GPU</b>: GTX260 Core 216 & 9800GT <br />
 <b>Monitors</b>: Center: BenQ 24" Left: Samsung 22" Right: Dell 17"<br />
-<b>RAM</b>: 8GB of GSkill PC2-8800 (4x4GB) (/tmp (1GB), shm (4GB))<br />
+<b>RAM</b>: 8GB of GSkill PC2-8800 (4x2GB) (/tmp (1GB), shm (4GB))<br />
 <b>Audio</b>: ALC889a<br />
 <b>Disks</b><br>
 <b>OS</b>: 1xIntel X25-M G2 80GB (/ (ext4), (/usr (ext4))<br />
