@@ -55,15 +55,15 @@ static char tags[][MONS_TAGGED][MAX_TAGLEN] = {
 
 static const Rule rules[] = {
 	/* class<TAB>instance<TAB><TAB>title<TAB><TAB><TAB>tags mask<TAB>isfloating<TAB>monitor */
-	/* class		instance	title			tags mask	isfloating	monitor */
-	{ "URxvt",		NULL,		"irssi",		1,		False,	1 },
-	{ "URxvt",		NULL,		"mpd",			2,		False,	0 },	
+	/* class		instance	title				tags mask	isfloating	monitor */
+	{ "URxvt",		NULL,		"irssi",			1,		False,	1 },
+	{ "URxvt",		NULL,		"ncmpcpp",			2,		False,	0 },	
 	{ "Google-chrome",   	NULL,		"Google Chrome Preferences",	1,		True,	2 },
- 	{ "Npviewer.bin",	"npviewer.bin",	"npviewer.bin",		1,		True,	2 },
-	{ "Google-chrome",	NULL,		NULL,			1,		False,	2 },
-	{ "MPlayer",		"xv",		"MPlayer",		2,		True,	2},
-	{ "Ossxmix",		"ossxmix",	"ossxmix",		0,		True,	2},
-	{ "Mangler",		"mangler",	"Mangler",		2,		True,	1},
+ 	{ "Npviewer.bin",	"npviewer.bin",	"npviewer.bin",			1,		True,	2 },
+	{ "Google-chrome",	NULL,		NULL,				1,		False,	2 },
+	{ "MPlayer",		"xv",		"MPlayer",			2,		True,	2},
+	{ "Ossxmix",		"ossxmix",	"ossxmix",			0,		True,	2},
+	{ "Mangler",		"mangler",	"Mangler",			2,		True,	1},
 };
 
 /* layout(s) */
@@ -137,7 +137,8 @@ static Key keys[] = {
     	{ MODKEY|ControlMask,           XK_k,      pushup,         {0} },
 	{ MODKEY|ShiftMask,		XK_j,	   movestack,	   {.i = +1 } },
 	{ MODKEY|ShiftMask,		XK_k,      movestack,	   {.i = -1 } },
-	{ MODKEY,			XK_i,	   spawn,	   SHCMD("urxvtc -T irssi -e irssi") },
+	{ MODKEY|ControlMask,		XK_i,	   spawn,	   SHCMD("urxvtc -T irssi -e irssi") },
+	{ MODKEY|ControlMask,		XK_p,	   spawn,	   SHCMD("urxvtc -T ncmpcpp -e ncmpcpp") },
 };
 
 /* button definitions */
