@@ -9,9 +9,6 @@ setxkbmap -option terminate:ctrl_alt_bksp
 # disable CapsLock & map to Escape
 setxkbmap -option caps:escape 
 
-# call Xmodap if the above fails
-xmodmap ~/.Xmodmap
-
 # set wallpaper
 nitrogen --restore &
 
