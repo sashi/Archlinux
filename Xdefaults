@@ -1,5 +1,5 @@
 !============================== MAIN ============================== 
-URxvt*termName:         rxvt-256color
+!URxvt*termName:         urxvt
 URxvt*imLocale:         en_US.UTF-8
 URxvt*loginShell:       true
 URxvt*saveLines:        32767
@@ -29,18 +29,16 @@ URxvt*tintColor:      	white
 !URxvt.italicFont:      xft:Monaco:pixelsize=11
 !URxvt.bolditalicFont:  xft:Monaco:pixelsize=11
 
-URxvt.font:xft:Envy Code R:medium:size=10
-URxvt.boldFont:xft:Envy Code R:medium:size=10
 
 !URxvt.font:            -xos4-terminus-medium-r-normal--12-*-*-*-*-*-*-u
 !URxvt*boldFont:        -xos4-terminus-bold-r-normal--12-*-*-*-*-*-*-u
 !URxvt*italicFont:      -xos4-terminus-medium-r-normal--12-*-*-*-*-*-*-u
 !URxvt*boldItalicFont:  -xos4-terminus-medium-r-normal--12-*-*-*-*-*-*-u
 
-!URxvt*font:             -*-terminus-medium-r-*-*-12-120-*-*-*-*-*-*
-!URxvt*boldFont:         -*-terminus-medium-r-*-*-12-120-*-*-*-*-*-*
-!URxvt*italicFont:       -*-terminus-medium-r-*-*-12-120-*-*-*-*-*-*
-!URxvt*boldItalicFont:   -*-terminus-medium-r-*-*-12-120-*-*-*-*-*-*
+URxvt*font:             -*-terminus-medium-r-*-*-12-120-*-*-*-*-*-*
+URxvt*boldFont:         -*-terminus-medium-r-*-*-12-120-*-*-*-*-*-*
+URxvt*italicFont:       -*-terminus-medium-r-*-*-12-120-*-*-*-*-*-*
+URxvt*boldItalicFont:   -*-terminus-medium-r-*-*-12-120-*-*-*-*-*-*
 
 !============================== COLORS ============================== 
 
