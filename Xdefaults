@@ -26,7 +26,7 @@ URxvt*visualBell:       true
 URxvt*urgentOnBell:     true
 
 !URxvt*perl-lib:           /usr/lib/urxvt/perl/
-URxvt*perl-ext-common:    default,matcher,clipboard
+URxvt*perl-ext-common:    default,matcher
 URxvt*urlLauncher:        /usr/bin/google-chrome
 URxvt*matcher.button:     1
 ! }}}

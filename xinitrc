@@ -25,14 +25,10 @@ xbindkeys &
 dropboxd &
 
 # hide cursor
-unclutter -idle 5 &
+unclutter -idle 2 &
 
 # start terminal emulation daemon
 /usr/bin/urxvtd -q -o -f &
-
-# clipboard synching
-/usr/bin/autocutsel -fork &
-/usr/bin/autocutsel -selection PRIMARY -fork &
 
 # xautolock
 xautolock -time 8 -locker slock -nowlocker slock -detectsleep &
