@@ -1,7 +1,7 @@
 /* See LICENSE file for copyright and license details. */
 
 /* appearance */
-static const char font[]            = "-*-terminus-medium-r-*-*-12-*-*-*-*-*-*-*";
+static const char font[]            = "-*-nu-*-*-*-*-*-*-*-*-*-*-*-*";
 /* static const char normbordercolor[] = "#333333";
 static const char normbgcolor[]     = "#262729";
 static const char normfgcolor[]     = "#ffffff";
@@ -58,7 +58,7 @@ static const Rule rules[] = {
 	/* class		instance	title				tags mask	isfloating	monitor */
 	{ "URxvt",		NULL,		"irssi",			1,		False,	1 },
 	{ "URxvt",		NULL,		"ncmpcpp",			2,		False,	0 },	
-	{ "Google-chrome",   	NULL,		"Google Chrome Preferences",	1,		True,	2 },
+	{ "Google-chrome",   	"google-chome",		"Google Chrome Preferences",	1,		True,	2 },
  	{ "Npviewer.bin",	"npviewer.bin",	"npviewer.bin",			1,		True,	2 },
 	{ "Google-chrome",	NULL,		NULL,				1,		False,	2 },
 	{ "MPlayer",		"xv",		"MPlayer",			2,		True,	2},
@@ -138,7 +138,7 @@ static Key keys[] = {
 	{ MODKEY|ShiftMask,		XK_j,	   movestack,	   {.i = +1 } },
 	{ MODKEY|ShiftMask,		XK_k,      movestack,	   {.i = -1 } },
 	{ MODKEY|ControlMask,		XK_i,	   spawn,	   SHCMD("urxvtc -T irssi -e irssi") },
-	{ MODKEY|ControlMask,		XK_p,	   spawn,	   SHCMD("urxvtc -T ncmpcpp -e ncmpcpp") },
+	{ MODKEY|ControlMask,		XK_m,	   spawn,	   SHCMD("urxvtc -T ncmpcpp -e ncmpcpp") },
 };
 
 /* button definitions */
