@@ -8,7 +8,9 @@ src="http://i72.photobucket.com/albums/i186/xxsashixx/screenFetch-2011-01-05_16-
 
 <a href="http://dwm.suckless.org">dwm-hg 5.9</a>
 
-<b><a href="http://dwm.suckless.org/patches/">Patches</a></b>
+<a href="http://dwm.suckless.org/patches/">Patches</b>
+
+More patches <a href="http://dwm.suckless.org/patches/">here</a>
 
 <a href="http://dwm.suckless.org/patches/fancycoloredbarclickable">Fancy coloured bar clickable</a>
 
@@ -20,9 +22,6 @@ src="http://i72.photobucket.com/albums/i186/xxsashixx/screenFetch-2011-01-05_16-
 
 
 <b>Apps shown</b>
-
 irssi
-
 mpd with ncmpcpp
-
 inxi -v 5 & screenfetch
