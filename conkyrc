@@ -1,0 +1,8 @@
+background no
+out_to_console yes
+update_interval 2
+total_run_times 0
+use_spacer none
+
+TEXT
+$mpd_smart :: ${downspeed eth0}K/s ${upspeed eth0}K/s :: ${time %a %b %d %I:%M%P}

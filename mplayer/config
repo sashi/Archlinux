@@ -1,0 +1,12 @@
+ass=yes
+lavdopts=threads=4
+vo=xv
+ao=oss
+subfont-text-scale=2.8
+double=yes
+monitoraspect=16:10
+spuaa=4
+subfont-osd-scale=3.2
+subpos=98
+embeddedfonts=yes
+
