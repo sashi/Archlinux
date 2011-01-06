@@ -11,11 +11,9 @@ src="http://i72.photobucket.com/albums/i186/xxsashixx/screenFetch-2011-01-05_16-
 <b>RAM</b>: 8GB of GSkill PC2-8800 (4x4GB) (/tmp (1GB), shm (4GB))<br />
 <b>Audio</b>: ALC889a<br />
 <b>Disks</b><br>
-<bOS</b>: 1xIntel X25-M G2 80GB (/ (ext4), (/usr (ext4))<br />
+<b>OS</b>: 1xIntel X25-M G2 80GB (/ (ext4), (/usr (ext4))<br />
 <b>Storage</b>: 4xWD Black 640GB RAID10 (/home (xfs))<br />
 <b>Backup</b>:1x500GB (/boot (ext2), /var (reiserfs) & /home/android (xfs)) & 50GB Dropbox account <br />
-
-<b></b>: <br />
 
 <b>WM</b>
 
@@ -29,7 +27,10 @@ More patches <a href="http://dwm.suckless.org/patches/">here</a><br />
 <a href="http://www.mail-archive.com/dev@suckless.org/msg06521.html">Tagnames Per Monitor</a><br />
 
 
-<b>Apps shown</b> <br />
+<b>Apps shown & used</b> <br />
 irssi <br />
 mpd with ncmpcpp <br />
 inxi -v 5 & screenfetch <br />
+zsh <br />
+urxvt-unicode with <a href="http://aur.archlinux.org/packages.php?ID=35526">urxvt-clipboard script</a><br />
+<a href="http://aur.archlinux.org/packages.php?ID=33378">packer</a>
